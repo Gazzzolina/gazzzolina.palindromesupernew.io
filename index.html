@@ -10,16 +10,14 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
   <script src="script.js"></script>
-</head>
-<script>
-$('.nav-toggle').on('click', function(){
-  $('#menu').toggleClass('active');
-});
-</script>
+	<script> 
+    $('.nav-toggle').on('click', function(){
+    $('#menu').toggleClass('active');
+    });
+  </script>
 
 <script language="JavaScript" type="text/javascript">	
-	
-	function multi(){
+  function multi(){
 		var multi_1, result;
 		multi_1 = document.getElementById('inp_1').value;
 		    
@@ -38,34 +36,33 @@ $('.nav-toggle').on('click', function(){
 		document.getElementById('result_multi').innerHTML = result;
 	}
 	</script>
+</head>
 <body>
 <header>
-    <nav class="container">
-	<div class="logo">
-        <h2>Interns / Задание 4 / Жаринова Галина</h2>
-      </div>
-         </nav>
-  </header>
-  <div class="container">
+  <nav class="container">
+	  <div class="logo">
+      <h2>Interns / Задание 4 / Жаринова Галина</h2>
+     </div>
+  </nav>
+</header>
+<div class="container">
   <div class="posts-list">
     <article class="post">
       <div class="container2">
-	  <h2> Является ли строка палиндромом?</h2>
-      <div class="post-content">
+	      <h2> Является ли строка палиндромом?</h2>
+        <div class="post-content">
         <p><div class="form-group">
 			  <p><label for="inp_1">Введите строку:</label> </p>
-                           <p><input type="text" class="form-control" title="Используйте любые символы и регистры" id="inp_1"></p>
-                        </div>
-                          <p> <button onclick="multi()" class="button10">Проверить</button></p>
-                    
-                    <hr>
-                    
-                        <p>Рeзультат: <b><span id="result_multi"></span></b></p>
-       </div>
-	   </div>
-		</article>
-    </div> 
-  <aside>
+        <p><input type="text" class="form-control" title="Используйте любые символы и регистры" id="inp_1"></p>
+      </div>
+      <p> <button onclick="multi()" class="button10">Проверить</button></p>
+      <hr>
+      <p>Рeзультат: <b><span id="result_multi"></span></b></p>
+    </div>
+	</div>
+	</article>
+</div> 
+<aside>
   <div class="widget">
     <h3 class="widget-title">Список функций</h3>
     <ul class="widget-category-list">
@@ -74,6 +71,7 @@ $('.nav-toggle').on('click', function(){
       <li><a href="https://gazzzolina.github.io/gazzzolina.dnaToRnanew.io/">Конвертер ДНК <-> РНК</a></li>
     </ul>
   </div>
-  </aside>
+</aside>
 </div> 
 </div>
+</body>
